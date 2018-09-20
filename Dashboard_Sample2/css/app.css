@@ -10693,10 +10693,9 @@ table tbody tr > .table-space {
 }
 .photo {
     background-clip: padding-box;
-    background-image: url("");
+    background-image: url("../images/avatar.png");
     background-repeat: no-repeat;
     border-radius: 5px;
-    box-shadow: 0 0 30px #000;
     height: 50px;
     margin-right: 10px;
     margin-top: 10px;
@@ -10764,7 +10763,6 @@ table tbody tr > .table-space {
 }
 .image-avatar {
     height: 50px;
-    width: 50px;
 }
 @media (max-width: 767px) {
     #content-wrapper.email-inbox-wrapper {

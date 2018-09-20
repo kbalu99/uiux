@@ -190,6 +190,9 @@
 					<div class="aamc-dashboard-id-summary-content no-print ng-isolate-scope">
 						<div class="col-photo pull-right ng-scope">
 							<div class="photo-wrapper">
+								<a href="#" class="photo pull-left ng-scope" id="uploadAvatar" ng-click="vm.showUploadAvatarModal()" ng-if="vm.currentApplication.statusId!== 5 &amp;&amp;(vm.currentApplication !== null &amp;&amp; (vm.currentApplication['sourceOrganization'] == 'DWS' || vm.currentApplication['sourceOrganization'] == 'EFDO'|| vm.currentApplication['sourceOrganization'] == 'ECFMG') &amp;&amp; !vm.tokenRegisterInProgress)" data-target="#UploadAvatarModal" data-toggle="modal" style="">
+									<img class="pull-right image-avatar ng-scope" ng-src="images/avatar.png" ng-if="!vm.avatarDisplayArea" data-title="Photo may only be uploaded/changed via the EFDO On-line Services" bs-tooltip="" src="images/avatar.png"><!-- end ngIf: !vm.avatarDisplayArea -->
+								</a>
 								<ul class="list-unstyled user-details pull-left">
 									<li><strong class="ng-binding">Jason Smith</strong></li>
 									<li><span class="small ng-binding">ID: 20016018</span></li>
