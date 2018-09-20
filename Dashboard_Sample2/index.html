@@ -8,9 +8,12 @@
 		<meta content="no-cache" http-equiv="Pragma">
 		<meta content="0" http-equiv="Expires">
 
-		<title class="ng-binding">MyERAS Dashboard Prototype V2</title>
-		<link href="app.css" media="all" rel="stylesheet" type="text/css">
-		<link href="myeras_custom.css" media="all" rel="stylesheet" type="text/css">
+		<title class="ng-binding">Dashboard</title>
+		<link href="css/app.css" media="all" rel="stylesheet" type="text/css">
+		<link href="css/myeras_custom.css" media="all" rel="stylesheet" type="text/css">
+		<!--Favicon Import-->
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	</head>
 
 	<body>
@@ -25,13 +28,13 @@
 						</button>
 						<div class="navbar-left">
 							<a class="navbar-brand" href="https://www.aamc.org/">
-								<img class="img-responsive" src="aamclogosmwht.png">
+								<img class="img-responsive" src="images/logo.png">
 							</a>
 						</div>
 					</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
-							<li><a href="https://apps.development.aamc.org/aamc-styles/">Dashboard</a></li>
+							<li><a href="#">Dashboard</a></li>
 							<li class="dropdown">
 								<a ng-if="isAuthenticated()" href="#" class="dropdown-toggle ng-scope" data-toggle="dropdown">
 									<span class="ng-binding">Application</span> <b class="caret"></b>
@@ -133,16 +136,16 @@
 							<ul class="nav navbar-nav navbar-right">
 								<li class="dropdown">
 									<a ng-if="isAuthenticated()" href="#" class="dropdown-toggle ng-scope" data-toggle="dropdown">
-										<span class="ng-binding">Joshua Bock</span> <b class="caret"></b>
+										<span class="ng-binding">Jason Smith</span> <b class="caret"></b>
 									</a>
 									<ul class="dropdown-menu" role="menu">
 										<li ng-if="isAuthenticated()" class="ng-scope">
-											<a id="myaccount-link" ng-show="isAuthenticated() &amp;&amp; !isAccountManagerModal()" ng-href="https://apps.development.aamc.org/30/ssoLogin/home/accountmanagement/accountManagementPortal" target="_top" href="https://apps.development.aamc.org/30/ssoLogin/home/accountmanagement/accountManagementPortal" class="">
+											<a id="myaccount-link" ng-show="isAuthenticated() &amp;&amp; !isAccountManagerModal()" ng-href="#" target="_top" href="#" class="">
 												<i class="glyphicon glyphicon-user"></i> My Account
 											</a>
 										</li>
 										<li>
-											<a id="myaccount-link" ng-show="isAuthenticated() &amp;&amp; !isAccountManagerModal()" ng-href="https://apps.development.aamc.org/30/ssoLogin/home/accountmanagement/accountManagementPortal" target="_top" href="#" class="">
+											<a id="myaccount-link" ng-show="isAuthenticated() &amp;&amp; !isAccountManagerModal()" ng-href="#" target="_top" href="#" class="">
 												<i class="glyphicon glyphicon-user"></i>  Help
 											</a>
 										</li>
@@ -163,7 +166,7 @@
 			<main class="container-fluid">
 				<div class="page-head clearfix">
 					<div class="aamc-dashboard-title-content no-print">
-						<h1><span class="title pull-left">MyERAS</span></h1>
+						<h1><span class="title pull-left">uiuxdemos</span></h1>
 
 						<div class="dropdown pull-left">
 							<h1></h1>
@@ -172,13 +175,13 @@
 						<div class="dropdown pull-left">
 							<h1 class="ng-scope">
 								<a class="dropdown-toggle ng-scope" data-toggle="dropdown" href="#">
-									<small class="ng-binding">ERAS 2016 Season - Residency <b class="caret"></b></small>
+									<small class="ng-binding">Year 2016 AppType I <b class="caret"></b></small>
 								</a>
 							</h1>
 
 							<ul class="dropdown-menu pull-right">
 								<li>
-									<a class="ng-binding ng-scope" href="#/token" tabindex="0">Register an ERAS 2016 Fellowship token</a>
+									<a class="ng-binding ng-scope" href="#/token" tabindex="0">Register a Type II Application</a>
 								</li>
 								<li></li>
 							</ul>
@@ -189,9 +192,9 @@
 						<div class="col-photo pull-right ng-scope">
 							<div class="photo-wrapper">
 								<ul class="list-unstyled user-details pull-left">
-									<li><strong class="ng-binding">sprint5test14 fdgfh</strong></li>
-									<li><span class="small ng-binding">AAMC ID: 20016018</span></li>
-									<li><span class="small ng-binding ng-scope">Email: skanakamedala@aamc.org</span></li>
+									<li><strong class="ng-binding">Jason Smith</strong></li>
+									<li><span class="small ng-binding">ID ID: 20016018</span></li>
+									<li><span class="small ng-binding ng-scope">Email: jsmith@github.com</span></li>
 									<li></li>
 								</ul>
 							</div>
@@ -312,10 +315,10 @@
 
 												<div class="row">
 													<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-														<a class="details" href="https://apps.ftest.aamc.org/myeras-web/" tabindex="0">View/Print Application</a>
+														<a class="details" href="#" tabindex="0">View/Print Application</a>
 													</div>
 													<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-														<a class="details" href="https://apps.ftest.aamc.org/myeras-web/" tabindex="0">View/Print CV</a>
+														<a class="details" href="#" tabindex="0">View/Print CV</a>
 													</div>
 												</div>
 											</div>
@@ -439,12 +442,12 @@
 
 												<div class="row">
 													<div class="col-xs-12">
-														<a href="https://www.aamc.org/students/download/424186/data/worksheet2016.pdf" target="_top">MyERAS Worksheet</a>
+														<a href="#" target="_top">Application Worksheet</a>
 													</div>
 												</div>
 												<div class="row">
 													<div class="col-xs-12">
-														<a href="#">User Guide for IMG Residency</a>
+														<a href="#">User Guide</a>
 													</div>
 												</div>
 												<div class="row">
@@ -454,12 +457,12 @@
 												</div>
 												<div class="row">
 													<div class="col-xs-12">
-														<a href="#">ERAS Timeline for IMG Residency</a>
+														<a href="#">Application Timeline</a>
 													</div>
 												</div>
 												<div class="row">
 													<div class="col-xs-12">
-														<a href="#">MyERAS Tutorials and PowerPoints for IMG Residency</a>
+														<a href="#">Application Tutorials and PowerPoints</a>
 													</div>
 												</div>
 
@@ -467,12 +470,12 @@
 
 												<div class="row">
 													<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-														<h4>Contact ERAS</h4>
+														<h4>Contact HelpDesk</h4>
 													</div>
 												</div>
 												<div class="row">
 													<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-														<a href="mailto:myeras@aamc.org">myeras@aamc.org</a>
+														<a href="mailto:github.org">github.org</a>
 													</div>
 													<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 														<span class="ng-binding">(202) 862-6264</span>
@@ -493,17 +496,17 @@
 				</div>
 			</main>
 		</div>
-		<footer class="footer footer-shadow hidden-xs">
+		<footer class="footer footer-shadow hidden-xs xyzz">
 			<ul class="list-inline text-center hidden-sm hidden-xs">
-				<li class="noborder">655 K Street, NW, Suite 100, Washington, DC,20001-2399</li>
-				<li><a href="https://www.aamc.org/about/contact/" title="Contact Us">Contact Us</a></li>
-				<li><a href="https://www.aamc.org/about/follow/" title="Follow Us">Follow Us</a></li>
-				<li>© 1995 - 2014 AAMC</li>
-				<li><a href="https://www.aamc.org/44864/terms.html" title="Terms and Conditions">Terms and Conditions</a></li>
-				<li><a href="https://www.aamc.org/44866/privacy.html" title="Privacy Statement">Privacy Statement</a></li>
+				<li class="noborder">&copy; 0000 - 1234 | </li>
+				<li>123 Jason St, Seattle, Denver, 78987-3243 | </li>
+				<li><a title="Contact Us" href="#" alt="Contact Us">Contact Us | </a></li>
+				<li><a title="Follow Us" href="#" alt="Follow Us">Follow Us | </a></li>
+				<li><a title="Terms and Conditions" href="#" alt="Terms and Conditions">Terms and Conditions | </a></li>
+				<li><a title="Privacy Statement" href="#" alt="Privacy Statement">Privacy Statement | </a></li>
 			</ul>
 		</footer>
-		<script src="vendor.js"></script>
-		<script src="scripts.js"></script>
+		<script src="scripts/vendor.js"></script>
+		<script src="scripts/scripts.js"></script>
 	</body>
 </html>

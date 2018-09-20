@@ -1,0 +1,11 @@
+<html>
+<head>
+	<title>404 Not Found</title>
+</head>
+<body>
+	<center><h2>404 Found</h2></center>
+	<hr />
+	<p><a href="#" onclick="history.go(-1)">Go Back</a></p>
+	<p><a href="https://www.aamc.org">www.aamc.org</a></p>
+</body>
+</html>
